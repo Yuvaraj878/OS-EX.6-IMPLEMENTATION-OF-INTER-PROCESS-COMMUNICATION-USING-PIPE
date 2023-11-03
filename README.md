@@ -3,15 +3,17 @@
 ## AIM:
 To implement interprocess communication using pipe command.
 ## ALGORITHM:
-```
+
 1.	Create a child process using fork().
 2.	Create a simple pipe with C, we make use of the pipe() system call.
 3.	Create two file descriptor fd[0] is set up for reading, fd[1] is set up for writing
 4.	Close the read end of parent process using close() and perform write operation
 5.	Close the write end of child process and perform reading
 6.	Display the text.
-```
+
 ## PROGRAM:
+### Developed By : YUVARAJ.S
+### Register Number : 212222240119
 ```c
 #include <stdio.h>
 int main()
